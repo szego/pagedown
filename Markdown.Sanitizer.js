@@ -5,7 +5,7 @@
         Converter = require("./Markdown.Converter").Converter;
     } else {
         output = window.Markdown;
-        Converter = output.Converter;
+        //Converter = output.Converter;
     }
         
     output.getSanitizingConverter = function () {
